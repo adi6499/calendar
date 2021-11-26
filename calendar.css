@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.contain{
+    width:100vw;
+    height:100vh;
+    background:black;
+    display:grid;
+    place-items:center;
+    position:relative;
+    overflow: hidden;
+}
+.graph{
+    width:70vmin;
+    height:50vmin;
+    border-radius:4vmin;
+    background:rgba(255, 255, 255, 0.219);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:1vmin;
+    flex-wrap:wrap;
+    list-style-type:none;
+    padding:3vmin;
+    position:relative;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow:hidden;
+}
+.graph > li{
+    width:7vmin;
+    height:7vmin;
+    background:rgba(255, 255, 255, 0.568);
+    color:rgb(0, 0, 0);
+    display:grid;
+    place-items:center;
+    font-weight: bold;
+    border-radius:2.5vmin;
+    transition:all 300ms linear;
+    font-size: 3vmin;
+}
+#video{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    background-size:100% 100%;
+    
+}
